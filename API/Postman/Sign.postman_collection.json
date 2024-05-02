@@ -1,0 +1,445 @@
+{
+	"info": {
+		"_postman_id": "c1710db7-01bc-46e9-9531-83eefe7c45c9",
+		"name": "Sign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31224140",
+		"_collection_link": "https://galactic-crater-636430.postman.co/workspace/Pro-test.studio~9a75be4b-c20c-4d13-bdbc-bc8ce5034c73/collection/31224140-c1710db7-01bc-46e9-9531-83eefe7c45c9?action=share&source=collection_link&creator=31224140"
+	},
+	"item": [
+		{
+			"name": "client",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "cookie",
+						"value": "__Secure-3PSID=g.a000hwiY6eNLhQ6HGs9F6GXboOVCQzy7bDP13S6UoMDetuu06JzO7QqHU2mgLHu0CP7dugakHgACgYKAUsSAQASFQHGX2MiI56-uTQKEbTDfcvVh1JKqBoVAUF8yKoL3clh1FYNEg8oHqerhUb20076; __Secure-3PAPISID=lhu5UKK2LYnvxBoR/ADnsxl2dOI4oLlJs-; __Host-3PLSID=o.chromewebstore.google.com|o.drive.fife.usercontent.google.com|o.drive.google.com|o.gds.google.com|o.mail.google.com|o.meet.google.com|s.RU|s.blogger|s.youtube:g.a000hwiY6fBA-i2zWodl-offjJGikb6pjOJ44lQiau6igHqpk1wbepdk7Bq-uV-vqGoovdFrVAACgYKAWASAQASFQHGX2MiawDNSWwgR7exmH0sIC1eaRoVAUF8yKr17zz8H8pnlHk9G0Ol2TLD0076; 1P_JAR=2024-04-21-10; NID=513=KyPtKDQTdigVDZRBuar9xxwarNIGYfG7HBfUJ0xnTYOJaiMzKd85WjaQQxhQUKnk_okUC-Gf9Of-E_uMpSV-_w2fCk-3F_b3iLSMUgyiP0gI1MXkTIR1QharV-zsfodpV8IRylyDrWzipoasx7iJucHEKTte-A5OXXGHWxH9bo9LKgsUX1clqrHzneNUE6A35qNscpSLWv4s3q4cE8dhVPFwZnaavHLye_FL86PC-dnvVvyM3V46W0W7RxOltPvxOd-gfoiPppiBdiDOUwpMAy7JGJ1-s5iERRxhl_bjpPt-06p0aKZ3BN_Cn2sL0OCrgwb8UbRLfM53vT8jnGej7y3GPqcxGet0ZqkpF7EU5MljFHnYqMskcag; __Secure-3PSIDTS=sidts-CjIB7F1E_I1ZLQd8rfiIjkFTwpza2x4HJOiMbOR1hhsWfJcvAXAASG-jkmCMewP1_0sakBAA; __Secure-3PSIDCC=AKEyXzVwvYU1tgR5SSYwVxT-_EhWuZmdU7juC8VVB2DYrK5oZkPz3t3FEY2WU_G15pqR3__uSsU"
+					},
+					{
+						"key": "referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "script"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "no-cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-client-data",
+						"value": "CKO1yQEIi7bJAQimtskBCKmdygEIh5PLAQiVocsBCIWgzQEY9snNARjYhs4B"
+					}
+				],
+				"url": {
+					"raw": "https://accounts.google.com/gsi/client",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"google",
+						"com"
+					],
+					"path": [
+						"gsi",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "cookie",
+						"value": "__stripe_mid=6f1dcc96-8154-4008-9697-7b6ebadcc0b04ee3bb; g_state={\"i_l\":0}; cro_go_flow_cookie=true; NPS_8a02c7bc_last_seen=1711566819947; NPS_8a02c7bc_surveyed=true; __stripe_sid=2f7221ba-bdf8-4df0-852d-a6c063d8c58b33ca68; signaturely.session=s%3ANCN2k6pcx8hSsIIfnl16ciQWC7FfwVUk.HGJnQjo9feZxKvaiv8M6IWqQqzuh94YvTTjZiUJ4CnE; _uetsid=c9680320ffd211ee8829874d146d2060; _uetvid=d95327c0ec6911ee98adefc32ae8c4d3; _dd_s=logs=1&id=a86ff2b0-0db3-4c1d-af57-57fe1488a15f&created=1713699125184&expire=1713701083738"
+					},
+					{
+						"key": "if-none-match",
+						"value": "W/\"aa4-HK3syu6MahUoEZVYdPZgB+re/c4\""
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/sign"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "workflow_referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/sign"
+					}
+				],
+				"url": {
+					"raw": "https://staging.d2twwklgqmrfet.amplifyapp.com/api-staging/v1/user",
+					"protocol": "https",
+					"host": [
+						"staging",
+						"d2twwklgqmrfet",
+						"amplifyapp",
+						"com"
+					],
+					"path": [
+						"api-staging",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "google-drive",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": ""
+					},
+					{
+						"key": "cookie",
+						"value": "__stripe_mid=6f1dcc96-8154-4008-9697-7b6ebadcc0b04ee3bb; g_state={\"i_l\":0}; cro_go_flow_cookie=true; NPS_8a02c7bc_last_seen=1711566819947; NPS_8a02c7bc_surveyed=true; __stripe_sid=2f7221ba-bdf8-4df0-852d-a6c063d8c58b33ca68; signaturely.session=s%3ANCN2k6pcx8hSsIIfnl16ciQWC7FfwVUk.HGJnQjo9feZxKvaiv8M6IWqQqzuh94YvTTjZiUJ4CnE; _dd_s=logs=1&id=a86ff2b0-0db3-4c1d-af57-57fe1488a15f&created=1713699125184&expire=1713701123394; _uetsid=c9680320ffd211ee8829874d146d2060; _uetvid=d95327c0ec6911ee98adefc32ae8c4d3"
+					},
+					{
+						"key": "if-modified-since",
+						"value": "Thu, 11 Apr 2024 10:15:52 GMT"
+					},
+					{
+						"key": "if-none-match",
+						"value": "\"f31dc716ce60eadce05ed5325f91b0eb\""
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/sign"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "f201113d70e14fba9e2d35c97b5c17e5-b2ff3d0b70a0ef3b-0"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://staging.d2twwklgqmrfet.amplifyapp.com/static/media/google-drive.f31dc716.svg",
+					"protocol": "https",
+					"host": [
+						"staging",
+						"d2twwklgqmrfet",
+						"amplifyapp",
+						"com"
+					],
+					"path": [
+						"static",
+						"media",
+						"google-drive.f31dc716.svg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "envelope",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "content-type",
+						"value": "text/plain;charset=UTF-8"
+					},
+					{
+						"key": "origin",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sent_at\":\"2024-04-21T11:49:44.383Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"7.0.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ef8799d1a8664a8790e16f9ffbd1dad9\",\"init\":true,\"started\":\"2024-04-21T11:49:44.383Z\",\"timestamp\":\"2024-04-21T11:49:44.383Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"0.1.0\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\"}}"
+				},
+				"url": {
+					"raw": "https://o1288904.ingest.sentry.io/api/6506624/envelope/?sentry_key=32efedad97c5452785b5abe8fd4042b7&sentry_version=7",
+					"protocol": "https",
+					"host": [
+						"o1288904",
+						"ingest",
+						"sentry",
+						"io"
+					],
+					"path": [
+						"api",
+						"6506624",
+						"envelope",
+						""
+					],
+					"query": [
+						{
+							"key": "sentry_key",
+							"value": "32efedad97c5452785b5abe8fd4042b7"
+						},
+						{
+							"key": "sentry_version",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "handleExternalLogin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "cookie",
+						"value": "iframe_session_feedback_signaturely_com_1_upvoty_site=nrn9jag0el0tdbjqv8oks36c61; user[iframe_code_feedback_signaturely_com]=116e8e6de6f6ae0795acfd35f0e54fb8"
+					},
+					{
+						"key": "origin",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://staging.d2twwklgqmrfet.amplifyapp.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "sec-gpc",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userData",
+							"value": "{\"user\":{\"id\":\"42c5cc88-971b-4d33-9adb-221facfb752b\",\"name\":\"Nikolay Zubovskiy\",\"email\":\"zubriknb@gmail.com\"},\"baseUrl\":\"feedback.signaturely.com\",\"publicKey\":\"c61d781e1c4d0768380d43ef0e9f9120\",\"offsetTop\":100,\"offsetBottom\":40,\"startPage\":\"board\",\"id\":\"1\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://feedback.signaturely.com/front/handleExternalLogin/",
+					"protocol": "https",
+					"host": [
+						"feedback",
+						"signaturely",
+						"com"
+					],
+					"path": [
+						"front",
+						"handleExternalLogin",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
